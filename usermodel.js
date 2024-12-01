@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect(`mongodb://127.0.0.127017/datbase`);
+mongoose.connect('mongodb://127.0.0.1:27017/database');
 const userSchema=mongoose.Schema({
     name:String,
     username:String,
